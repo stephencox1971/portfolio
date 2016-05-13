@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="en">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Portfolio Site</title>
 	<link href='https://fonts.googleapis.com/css?family=Lato:400,300,100' 
 	rel='stylesheet' type='text/css'>
 	<!-- The mock uses Open-Sans but I think Lato looks nicer. -->
-	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 	<body>
@@ -25,22 +24,22 @@
 					</div>
 				</div>
 			</header>
-		<div class="row">
-			<div class="col-md-12">
-				<hr class="top-rule">
+			<div class="row">
+				<div class="col-md-12">
+					<hr class="top-rule">
+				</div>
 			</div>
-		</div>
-		<!-- All raster images from https://pixabay.com/ -->
-		<div class="row">
-			<div class="col-md-12">
-				<picture>
-					<source srcset="images/binary-code-mobile.jpg" media= "(max-width: 400px)"class="img-responsive" alt="Binary Code">	
-					<img src="images/binary-code.jpg" class="img-responsive" alt="Binary Code">
-				</picture>
-			</div>	
-		</div>
-		<!-- Added 12 col to the two proceeding rows to prevent the image overhanging the rest of the content. -->
-		<section>
+			<!-- All raster images from https://pixabay.com/ -->
+			<div class="row">
+				<div class="col-md-12">
+					<picture>
+						<source srcset="images/binary-code-mobile.jpg" media= "(max-width: 400px)" class="img-responsive">	
+						<img src="images/binary-code.jpg" class="img-responsive" alt="Binary Code">
+					</picture>
+				</div>	
+			</div>
+			<!-- Added 12 col to the two proceeding rows to prevent the image overhanging the rest of the content. -->
+			<section id="feature-work">
 			<div class="row">
 				<div class="col-md-12">
 					<h2 class="section-featured">Featured Work</h2>
@@ -50,7 +49,7 @@
 				<article>
 						<div class="col-md-4">
 							<picture>
-								<source srcset="images/kermit-mobile.jpg" media= "(max-width: 400px)"class="img-responsive" alt="Frogger">	
+								<source srcset="images/kermit-mobile.jpg" media= "(max-width: 400px)" class="img-responsive">	
 				 				<img src="images/kermit.jpg" class="img-responsive" alt="Frogger">
 							</picture>
 							<h3 class="text-uppercase text-center">Frogger Clone</h3>
@@ -62,7 +61,7 @@
 				<article>
 						<div class="col-md-4">
 							<picture>
-								<source srcset="images/doctor-mobile.jpg" media= "(max-width: 400px)"class="img-responsive" alt="Healthcare">	
+								<source srcset="images/doctor-mobile.jpg" media= "(max-width: 400px)" class="img-responsive">	
 								<img src="images/doctor.jpg" class="img-responsive" alt="Healthcare">
 							</picture>
 							<h3 class="text-uppercase text-center">Healthcare Tracker</h3>
@@ -74,7 +73,7 @@
 				<article>
 					<div class="col-md-4">
 						<picture>
-							<source srcset="images/ferrari-mobile.jpg" media= "(max-width: 400px)"class="img-responsive" alt="Optimization">	
+							<source srcset="images/ferrari-mobile.jpg" media= "(max-width: 400px)" class="img-responsive">	
 							<img src="images/ferrari.jpg" class="img-responsive" alt="Optimization">
 						</picture>
 						<h3 class="text-uppercase text-center">Web Optimization</h3>
@@ -84,6 +83,7 @@
 					</div>
 				</article>
 				</div>
-		</section>
+			</section>
+		</div>
 	</body>
 </html>
