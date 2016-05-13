@@ -3,14 +3,33 @@ body {
 	color: #092309;
 	font-weight: 300;
 }
+
+a:link {
+	color: #092309;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #092309;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #4a9c2b;
+	text-decoration: none;
+}
+
 .title-text {
 	font-weight: 100;
 	font-size: 60px;
 }
+
 .top-rule {
 	border-top: solid 4px;
 	color: #4a9c2b;
 }
+/*Use border-top to overide Bootstrap without affecting responsiveness*/
+
 .section-featured {
 	color: #5CC086;
 }
